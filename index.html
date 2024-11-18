@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+        </style>
+        <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <header>
+            <div class="header-content">
+                <div class="logo">
+                    <span class="code">&lt</span>
+                    <p>Rizky</p>
+                    <span class="code">/&gt</span>
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#Home" class="nav-list">Home</a>
+                        </li>
+                        <li>
+                            <a href="#About" class="nav-list">About</a>
+                        </li>
+                        <li>
+                            <a href="#Project" class="nav-list">Project</a>
+                        </li>
+                        <li>
+                            <a href="#Contact" class="nav-list">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- Bagian Home -->
+        <section id="Home" class="home">
+            <h1>Hallo Semua</h1>
+            <p>Ini adalah <b>Portfolio</b> sederhana saya.</p>
+        </section>
+        <!-- Bagian About -->
+        <section id="About" class="about">
+            <p class="heading"><span class="s-code">&lt</span>Tentang Saya<span class="s-code">/&gt</span></p>
+            <p class="text">Saya Rizky Ramadhani, siswa kelas X di Program Keahlian PPLG (Pengembangan Perangkat Lunak dan Gim) SMK AK Nusa Bangsa. Sebagai pelajar yang antusias di bidang teknologi, saya berkeinginan untuk mengembangkan keterampilan dalam pemrograman, pengembangan aplikasi, dan inovasi digital. Dengan semangat belajar yang tinggi, saya berharap untuk terus bisa meningkatkan kemampuan saya dalam menciptakan solusi teknologi yang bermanfaat bagi lingkungan masyarakat.</p>
+        </section>
+        <!-- Bagian Proyek -->
+        <section id="Project" class="work">
+            <p class="heading"><span class="s-code">&lt</span>Project Terakhir<span class="s-code">/&gt</span></p>
+            <div class="project">
+                <div class="project-grid">
+                    <a href="https://rizuxy.github.io/Survey-Form/" class="project-tile">
+                    <img src="Survey.JPG" alt="Random Survey"/>
+                    </a>
+                    <p class="project-title">Random Survey</p>
+                </div>
+                <div class="project-grid">
+                    <a href="https://rizuxy.github.io/Peringatan/" class="project-tile">
+                    <img src="Darurat.JPG" alt="Peringatan Darurat"/>
+                    </a>
+                    <p class="project-title">Peringatan Darurat</p>
+                </div>
+                <div class="project-grid">
+                    <a href="https://rizuxy.github.io/Tribute-Page/" class="project-tile">
+                    <img src="Tribute.png" alt="Tribute Page"/>
+                    </a>
+                    <p class="project-title">Tribute Page</p>
+                </div>
+            </div>
+            <!-- Bagian Kontak -->
+        </section>
+        <section id="Contact" class="contact">
+            <p class="heading"><span class="s-code">&lt</span>Contact Me<span class="s-code">/&gt</span></p>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea><br/>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 Rizky Ramadhani</p>
+        </footer>
+    </body>
+</html>
